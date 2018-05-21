@@ -1,0 +1,73 @@
+New action
+
+
+Report problems to ....
+
+
+Operations:
+
+
+Problem: {TRIGGER.NAME}
+
+
+<b>Host:</b> {HOST.NAME}
+<b>Problem name:</b> {TRIGGER.NAME}
+<b>Problem started at</b> {EVENT.TIME} <b>on</b> {EVENT.DATE}
+<b>Severity:</b> {TRIGGER.SEVERITY}
+item1:;{ITEM.ID1};{ITEM.NAME1}
+item2:;{ITEM.ID2};{ITEM.NAME2}
+item3:;{ITEM.ID3};{ITEM.NAME3}
+item4:;{ITEM.ID4};{ITEM.NAME4}
+item5:;{ITEM.ID5};{ITEM.NAME5}
+item6:;{ITEM.ID6};{ITEM.NAME6}
+eventid:;{EVENT.ID}
+triggerid:;{TRIGGER.ID}
+triggername:;{TRIGGER.NAME}
+status:;{TRIGGER.STATUS}
+
+
+
+
+
+Recovery operations:
+
+Resolved: {TRIGGER.NAME}
+
+
+<b>Host:</b> {HOST.NAME}
+<b>Problem name:</b> {TRIGGER.NAME}
+<b>Problem has been resolved at</b> {EVENT.RECOVERY.TIME} <b>on </b>{EVENT.RECOVERY.DATE}
+<b>Severity:</b> {TRIGGER.SEVERITY}
+item1:;{ITEM.ID1};{ITEM.NAME1}
+item2:;{ITEM.ID2};{ITEM.NAME2}
+item3:;{ITEM.ID3};{ITEM.NAME3}
+item4:;{ITEM.ID4};{ITEM.NAME4}
+item5:;{ITEM.ID5};{ITEM.NAME5}
+item6:;{ITEM.ID6};{ITEM.NAME6}
+eventid:;{EVENT.ID}
+triggerid:;{TRIGGER.ID}
+triggername:;{TRIGGER.NAME}
+status:;{TRIGGER.STATUS}
+
+
+
+Acknowledgement operations:
+
+
+Acknowledged: {TRIGGER.NAME}
+
+
+<b>Host:</b> {HOST.NAME}
+<b>Problem name:</b> {TRIGGER.NAME}
+{USER.FULLNAME} <b>acknowledged problem at</b> {ACK.DATE} {ACK.TIME} <b>with the following message:</b> {ACK.MESSAGE}
+<b>Severity:</b> {TRIGGER.SEVERITY}
+item1:;{ITEM.ID1};{ITEM.NAME1}
+item2:;{ITEM.ID2};{ITEM.NAME2}
+item3:;{ITEM.ID3};{ITEM.NAME3}
+item4:;{ITEM.ID4};{ITEM.NAME4}
+item5:;{ITEM.ID5};{ITEM.NAME5}
+item6:;{ITEM.ID6};{ITEM.NAME6}
+eventid:;{EVENT.ID}
+triggerid:;{TRIGGER.ID}
+triggername:;{TRIGGER.NAME}
+status:;{TRIGGER.STATUS}
