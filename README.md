@@ -17,9 +17,8 @@ pip3.6 install requests jinja2 pyzabbix <br>
 
 
 
-Zabbix Server: put zbxemail.py, zbxemail_settings.py and email_template.j2 into /usr/lib/zabbix/alertscripts ( or you alertscripts folder for zabbix ) <br>
-Create temp folder for image,  for example /var/tmp/zbxemail, change permissions to rwxrwxrwx, and edit path in zbxemail_settings.py: zbx_tmp_path = '/var/tmp/zbxemail' zbx_alert_path = '/usr/lib/zabbix/alertscripts'<br>
-Change settings for email in zbxemail_settings.py <br>
+Zabbix Server: put zbxemail.py, zbxemail_settings.py and email_template.j2 into /usr/lib/zabbix/alertscripts (or you alertscripts folder for zabbix); create temp folder for image, for example /var/tmp/zbxemail, change permissions to rwxrwxrwx; <br> edit path in zbxemail_settings.py: zbx_tmp_path = '/var/tmp/zbxemail' zbx_alert_path = '/usr/lib/zabbix/alertscripts';<br>
+change settings for email in zbxemail_settings.py <br>
 
 Add media type:<br>
 <img src="https://image.ibb.co/g1YSgT/1.png"><br>
