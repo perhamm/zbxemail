@@ -26,11 +26,11 @@ Add media to user:<br><br>
 <img src="https://image.ibb.co/mu0jT8/2.png"><br><br>
 Add action:<br>
 select New action<br>
-Report problems to ....<br>
+in Action: Report problems to exmp.user<br>
 <br>
 <img src="https://image.ibb.co/jWR2Fo/3.png"><br><br>
                                           
-Operations:<br><br>
+in Operations:<br><br>
 
 Problem: {TRIGGER.NAME}<br><br>
 
@@ -53,7 +53,7 @@ status:;{TRIGGER.STATUS}<br><br>
 <img src="https://image.ibb.co/diFJo8/4.png"><br><br>
 
 
-Recovery operations:<br><br>
+in Recovery operations:<br><br>
 
 Resolved: {TRIGGER.NAME}<br><br>
 
@@ -75,7 +75,7 @@ status:;{TRIGGER.STATUS}<br><br>
 <br><br>
 <img src="https://image.ibb.co/gNOSgT/5.png"><br><br>
 
-Acknowledgement operations:<br><br>
+in Acknowledgement operations:<br><br>
 
 Acknowledged: {TRIGGER.NAME}<br><br>
 
