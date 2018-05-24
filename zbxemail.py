@@ -9,6 +9,7 @@ import smtplib
 import sys
 import base64
 import datetime
+import time
 
 from pyzabbix import ZabbixAPI
 from jinja2 import Template
@@ -73,20 +74,31 @@ class zbxdata(object):
 		self.triggerstatus = ''
 		self.itemuniq = []
 		self.hostid = ''
+		self.resolv_or_ack = 0
 		
 	def get_last_ten_minutes_data(self):
 		sl=''
 		for item in self.itemuniq:
 			sl+='&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+item[1]+" :"
 			sl+="<br>"
-			histrory_item = zapi.history.get(output='extend',
-											history=item[2],
-											itemids=item[0],
-											time_from=str(int(self.eventtime)-10*60),
-											time_till=self.eventtime, 
-											sortfield='clock',
-											sortorder='DESC',
-											)
+			if self.resolv_or_ack == 0:
+				histrory_item = zapi.history.get(output='extend',
+												history=item[2],
+												itemids=item[0],
+												time_from=str(int(self.eventtime)-10*60),
+												time_till=self.eventtime, 
+												sortfield='clock',
+												sortorder='DESC',
+												)
+			if self.resolv_or_ack == 1:
+				histrory_item = zapi.history.get(output='extend',
+												history=item[2],
+												itemids=item[0],
+												time_from=str(int(time.time())-10*60),
+												time_till=str(int(time.time())), 
+												sortfield='clock',
+												sortorder='DESC',
+												)
 			for tmp_history in histrory_item:
 				sl+="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+"Time"+convert_time(int(tmp_history["clock"]))+"   Value: "+tmp_history["value"]+"<br>"
 		return sl
@@ -269,6 +281,11 @@ def main():
 		zbx_image.login()
 	except:
 		pass
+	
+	subj = sys.argv[2]
+	
+	if subj.find('Resolved') == 0 or subj.find('Acknowledged') == 0:
+		zdata.resolv_or_ack = 1
 	
 	body = sys.argv[3].split('\n')
 
