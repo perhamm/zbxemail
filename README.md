@@ -11,7 +11,7 @@ pip3.6 install requests jinja2 pyzabbix <br>
 <br>
 <br>
 
-<img src="https://image.ibb.co/jjfJo8/7.png"><br>
+<img src="https://image.ibb.co/jjfJo8/7.png"><br><br>
 
 <img src="https://image.ibb.co/bOAjT8/9.png"><br>
 
