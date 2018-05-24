@@ -21,9 +21,9 @@ Zabbix Server: put zbxemail.py, zbxemail_settings.py and email_template.j2 into 
 change settings for email in zbxemail_settings.py <br>
 
 Add media type:<br>
-<img src="https://image.ibb.co/g1YSgT/1.png"><br>
+<img src="https://image.ibb.co/g1YSgT/1.png"><br><br>
 Add media to user:<br>
-<img src="https://image.ibb.co/mu0jT8/2.png"><br>
+<img src="https://image.ibb.co/mu0jT8/2.png"><br><br>
 Add action:<br>
 select New action<br>
 Report problems to ....<br>
