@@ -28,8 +28,8 @@ Add media to user:<br>
 Add action:<br>
 select New action<br>
 Report problems to ....<br>
-
-<img src="https://image.ibb.co/jWR2Fo/3.png"><br>
+<br>
+<img src="https://image.ibb.co/jWR2Fo/3.png"><br><br>
                                           
 Operations:<br><br>
 
@@ -49,8 +49,8 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
-
-<img src="https://image.ibb.co/diFJo8/4.png"><br>
+<br>
+<img src="https://image.ibb.co/diFJo8/4.png"><br><br>
 
 
 Recovery operations:<br><br>
@@ -71,8 +71,8 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
-
-<img src="https://image.ibb.co/gNOSgT/5.png"><br>
+<br>
+<img src="https://image.ibb.co/gNOSgT/5.png"><br><br>
 
 Acknowledgement operations:<br><br>
 
@@ -92,5 +92,5 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br>
-
+<br>
 <img src="https://image.ibb.co/gP1f1T/6.png"><br>
