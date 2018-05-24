@@ -33,11 +33,11 @@ Report problems to ....<br>
 Operations:<br><br>
 
 Problem: {TRIGGER.NAME}<br><br>
-<plaintext>
-<b>Host:</b> {HOST.NAME}<br>
-<b>Problem name:</b> {TRIGGER.NAME}<br>
-<b>Problem started at</b> {EVENT.TIME} <b>on</b> {EVENT.DATE}<br>
-<b>Severity:</b> {TRIGGER.SEVERITY}<br>
+
+&lt;b&gt;Host:&lt;/b&gt; {HOST.NAME}<br>
+&lt;b&gt;Problem name:&lt;/b&gt; {TRIGGER.NAME}<br>
+&lt;b&gt;Problem started at&lt;/b&gt; {EVENT.TIME} &lt;b&gt;on&lt;/b&gt; {EVENT.DATE}<br>
+&lt;b&gt;Severity:&lt;/b&gt; {TRIGGER.SEVERITY}<br>
 item1:;{ITEM.ID1};{ITEM.NAME1}<br>
 item2:;{ITEM.ID2};{ITEM.NAME2}<br>
 item3:;{ITEM.ID3};{ITEM.NAME3}<br>
@@ -48,7 +48,7 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
-</plaintext>
+
 <br><br>
 <img src="https://image.ibb.co/diFJo8/4.png"><br><br>
 
@@ -56,11 +56,11 @@ status:;{TRIGGER.STATUS}<br><br>
 Recovery operations:<br><br>
 
 Resolved: {TRIGGER.NAME}<br><br>
-<plaintext>
-<b>Host:</b> {HOST.NAME}<br>
-<b>Problem name:</b> {TRIGGER.NAME}<br>
-<b>Problem has been resolved at</b> {EVENT.RECOVERY.TIME} <b>on </b>{EVENT.RECOVERY.DATE}<br>
-<b>Severity:</b> {TRIGGER.SEVERITY}<br>
+
+&lt;b&gt;Host:&lt;/b&gt; {HOST.NAME}<br>
+&lt;b&gt;Problem name:&lt;/b&gt; {TRIGGER.NAME}<br>
+&lt;b&gt;Problem has been resolved at&lt;/b&gt; {EVENT.RECOVERY.TIME} &lt;b&gt;on &lt;/b&gt;{EVENT.RECOVERY.DATE}<br>
+&lt;b&gt;Severity:</b> {TRIGGER.SEVERITY}<br>
 item1:;{ITEM.ID1};{ITEM.NAME1}<br>
 item2:;{ITEM.ID2};{ITEM.NAME2}<br>
 item3:;{ITEM.ID3};{ITEM.NAME3}<br>
@@ -71,18 +71,18 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
-</plaintext>
+
 <br><br>
 <img src="https://image.ibb.co/gNOSgT/5.png"><br><br>
 
 Acknowledgement operations:<br><br>
 
 Acknowledged: {TRIGGER.NAME}<br><br>
-<plaintext>
-<b>Host:</b> {HOST.NAME}<br>
-<b>Problem name:</b> {TRIGGER.NAME}<br>
-{USER.FULLNAME} <b>acknowledged problem at</b> {ACK.DATE} {ACK.TIME} <b>with the following message:</b> {ACK.MESSAGE}<br>
-<b>Severity:</b> {TRIGGER.SEVERITY}<br>
+
+&lt;b&gt;Host:&lt;/b&gt; {HOST.NAME}<br>
+&lt;b&gt;Problem name:&lt;/b&gt; {TRIGGER.NAME}<br>
+{USER.FULLNAME} &lt;b&gt;acknowledged problem at&lt;/b&gt; {ACK.DATE} {ACK.TIME} &lt;b&gt;with the following message:&lt;/b&gt; {ACK.MESSAGE}<br>
+&lt;b&gt;Severity:&lt;/b&gt; {TRIGGER.SEVERITY}<br>
 item1:;{ITEM.ID1};{ITEM.NAME1}<br>
 item2:;{ITEM.ID2};{ITEM.NAME2}<br>
 item3:;{ITEM.ID3};{ITEM.NAME3}<br>
@@ -93,5 +93,6 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br>
+
 <br><br>
 <img src="https://image.ibb.co/gP1f1T/6.png"><br>
