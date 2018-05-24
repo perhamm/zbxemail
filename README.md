@@ -11,20 +11,20 @@ pip3.6 install requests jinja2 pyzabbix <br>
 <br>
 <br>
 
-<img src="<img src="https://image.ibb.co/eJENFo/8.png"><br>
+<img src="https://image.ibb.co/eJENFo/8.png"><br>
 
-<img src="<img src="https://image.ibb.co/bOAjT8/9.png"><br>
+<img src="https://image.ibb.co/bOAjT8/9.png"><br>
 
 
 Add media type:<br>
-<img src="<img src="https://image.ibb.co/g1YSgT/1.png"><br>
+<img src="https://image.ibb.co/g1YSgT/1.png"><br>
 Add media to user:<br>
-<img src="<img src="https://image.ibb.co/mu0jT8/2.png><br>
+<img src="https://image.ibb.co/mu0jT8/2.png><br>
 Add action:<br>
 select New action<br>
 Report problems to ....<br>
 
-<img src="<img src="https://image.ibb.co/jWR2Fo/3.png"><br>
+<img src="https://image.ibb.co/jWR2Fo/3.png"><br>
                                           
 Operations:<br><br>
 
@@ -45,7 +45,7 @@ triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
 
-<img src="<img src="https://image.ibb.co/diFJo8/4.png"><br>
+<img src="https://image.ibb.co/diFJo8/4.png"><br>
 
 
 Recovery operations:<br><br>
@@ -67,7 +67,7 @@ triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
 
-<img src="<img src="https://image.ibb.co/gNOSgT/5.png"><br>
+<img src="https://image.ibb.co/gNOSgT/5.png"><br>
 
 Acknowledgement operations:<br><br>
 
@@ -88,4 +88,4 @@ triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br>
 
-<img src="<img src="https://image.ibb.co/gP1f1T/6.png"><br>
+<img src="https://image.ibb.co/gP1f1T/6.png"><br>
