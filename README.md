@@ -10,9 +10,22 @@ sudo yum install -y python36u python36u-libs python36u-devel python36u-pip <br>
 pip3.6 install requests jinja2 pyzabbix <br>
 <br>
 <br>
+
+<img src="<img src="https://ibb.co/bycL1T"><br>
+
+<img src="<img src="https://ibb.co/mHJtMT"><br>
+
+
+Add media type:<br>
+<img src="<img src="https://ibb.co/kGBDMT"><br>
+Add media to user:<br>
+<img src="<img src="https://ibb.co/gGD4T8><br>
 Add action:<br>
-New action<br>
+select New action<br>
 Report problems to ....<br>
+
+<img src="<img src="https://ibb.co/c4uB88"><br>
+                                          
 Operations:<br><br>
 
 Problem: {TRIGGER.NAME}<br><br>
@@ -31,6 +44,9 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
+
+<img src="<img src="https://ibb.co/nr6f1T"><br>
+
 
 Recovery operations:<br><br>
 
@@ -51,6 +67,8 @@ triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
 
+<img src="<img src="https://ibb.co/c8mf1T"><br>
+
 Acknowledgement operations:<br><br>
 
 Acknowledged: {TRIGGER.NAME}<br><br>
@@ -69,3 +87,5 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br>
+
+<img src="<img src="https://ibb.co/jyLwao"><br>
