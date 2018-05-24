@@ -22,7 +22,7 @@ change settings for email in zbxemail_settings.py <br>
 
 Add media type:<br><br>
 <img src="https://image.ibb.co/g1YSgT/1.png"><br><br>
-Add media to user:<br><br><br>
+Add media to user:<br><br>
 <img src="https://image.ibb.co/mu0jT8/2.png"><br><br>
 Add action:<br>
 select New action<br>
