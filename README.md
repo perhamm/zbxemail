@@ -20,9 +20,9 @@ pip3.6 install requests jinja2 pyzabbix <br>
 Zabbix Server: put zbxemail.py, zbxemail_settings.py and email_template.j2 into /usr/lib/zabbix/alertscripts (or you alertscripts folder for zabbix); create temp folder for image, for example /var/tmp/zbxemail, change permissions to rwxrwxrwx; <br> edit path in zbxemail_settings.py: zbx_tmp_path = '/var/tmp/zbxemail' zbx_alert_path = '/usr/lib/zabbix/alertscripts';<br>
 change settings for email in zbxemail_settings.py <br>
 
-Add media type:<br>
+Add media type:<br><br>
 <img src="https://image.ibb.co/g1YSgT/1.png"><br><br>
-Add media to user:<br>
+Add media to user:<br><br><br>
 <img src="https://image.ibb.co/mu0jT8/2.png"><br><br>
 Add action:<br>
 select New action<br>
@@ -33,7 +33,7 @@ Report problems to ....<br>
 Operations:<br><br>
 
 Problem: {TRIGGER.NAME}<br><br>
-
+<plaintext>
 <b>Host:</b> {HOST.NAME}<br>
 <b>Problem name:</b> {TRIGGER.NAME}<br>
 <b>Problem started at</b> {EVENT.TIME} <b>on</b> {EVENT.DATE}<br>
@@ -48,14 +48,15 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
-<br>
+</plaintext>
+<br><br>
 <img src="https://image.ibb.co/diFJo8/4.png"><br><br>
 
 
 Recovery operations:<br><br>
 
 Resolved: {TRIGGER.NAME}<br><br>
-
+<plaintext>
 <b>Host:</b> {HOST.NAME}<br>
 <b>Problem name:</b> {TRIGGER.NAME}<br>
 <b>Problem has been resolved at</b> {EVENT.RECOVERY.TIME} <b>on </b>{EVENT.RECOVERY.DATE}<br>
@@ -70,13 +71,14 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br><br>
-<br>
+</plaintext>
+<br><br>
 <img src="https://image.ibb.co/gNOSgT/5.png"><br><br>
 
 Acknowledgement operations:<br><br>
 
 Acknowledged: {TRIGGER.NAME}<br><br>
-
+<plaintext>
 <b>Host:</b> {HOST.NAME}<br>
 <b>Problem name:</b> {TRIGGER.NAME}<br>
 {USER.FULLNAME} <b>acknowledged problem at</b> {ACK.DATE} {ACK.TIME} <b>with the following message:</b> {ACK.MESSAGE}<br>
@@ -91,5 +93,5 @@ eventid:;{EVENT.ID}<br>
 triggerid:;{TRIGGER.ID}<br>
 triggername:;{TRIGGER.NAME}<br>
 status:;{TRIGGER.STATUS}<br>
-<br>
+<br><br>
 <img src="https://image.ibb.co/gP1f1T/6.png"><br>
